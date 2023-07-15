@@ -1,0 +1,123 @@
+body{
+    margin: auto;
+    padding: auto;
+    font-family: 'Tilt Warp', cursive;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introText{
+    font-size: 3rem;
+}
+
+.auswahl{
+    display: flex;
+    flex-direction: row;
+}
+
+.rockSign{
+    font-size: 5rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border: solid 5px black;
+    border-radius: 1rem;
+    background: rgb(168, 255, 118);
+    text-align: center;
+}
+
+.rockSign:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.paperSign{
+    font-size: 5rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border: solid 5px black;
+    border-radius: 1rem;
+    background: #ffc0cb;
+    text-align: center;
+}
+
+.paperSign:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.scissorSign{
+    font-size: 5rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border: solid 5px black;
+    border-radius: 1rem;
+    background: rgb(118, 180, 255);
+    text-align: center;
+}
+
+.scissorSign:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.pcRockSign{
+    font-size: 10rem;
+    margin: 1.5rem;
+    padding: 2rem;
+    width: 40%;
+    border: solid 5px black;
+    border-radius: 1rem;
+    background: rgb(102, 0, 255);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pcPaperSign{
+    font-size: 10rem;
+    margin: 1.5rem;
+    padding: 2rem;
+    width: 40%;
+    border: solid 5px black;
+    border-radius: 1rem;
+    background: rgb(102, 0, 255);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pcScissorSign{
+    font-size: 10rem;
+    margin: 1.5rem;
+    padding: 2rem;
+    width: 40%;
+    border: solid 5px black;
+    border-radius: 1rem;
+    background: rgb(102, 0, 255);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.countdown{
+    margin-top: 7rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.loseText{
+    font-size: 2rem  ;
+    text-align: center;
+}
+
+.winText{
+    font-size: 2rem  ;
+    text-align: center;
+}
